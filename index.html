@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <input id="search" type="search" placeholder="Search notes… ( / )" autocomplete="off">
+    <div id="sources">
+      <button data-source="">All</button>
+      <button data-source="podcast">Podcast</button>
+      <button data-source="youtube">YouTube</button>
+      <button data-source="conversation">Conversation</button>
+    </div>
+    <div id="tags"></div>
+    <ul id="list"></ul>
+  </aside>
+  <main id="note"></main>
+  <script src="vendor/marked.min.js"></script>
+  <script src="notes.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
